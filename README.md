@@ -37,6 +37,12 @@ can read more about [how to setup `init.d` here](http://stephaniemoyerman.com/?p
 Not fully tested. Probably disruptive toward battery life. No control of contrast. No option to blank screen
 after timeout. Should graph. No temperature control. No ability to switch to/from AP.
 
+## Fine print
+
+Totally jacked from Sparkfun's `oled_pong` example, so I guess that means this is GPLv3 as well. 
+
+Written in Miami at [Building.co](http://building.co).
+
 ## Contact
 
 @tlack
