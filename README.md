@@ -2,13 +2,17 @@
 
 This small C++ program allows you to display stdout on your Intel Edison's Sparkfun OLED display.
 
+Shown here displaying IP information and battery status on the loathsome FleshComputer 01:
+
+![Image of Intel Edison OLED message program](http://modernmethod.com/send/files/omsg.jpg).
+
 ## Why
 
 I wanted an easy way to blast things to the Edison's screen. I'm using the Sparkfun boards with the 
 tiny OLED display. 
 
 I often can't get the Edison's address easily if it's bouncing around between
-wifi access points. This helps.
+wifi access points. This helps. I'm also often curious about battery status.
 
 ## What it do
 
@@ -31,7 +35,7 @@ can read more about [how to setup `init.d` here](http://stephaniemoyerman.com/?p
 ## Status
 
 Not fully tested. Probably disruptive toward battery life. No control of contrast. No option to blank screen
-after timeout.
+after timeout. Should graph. No temperature control. No ability to switch to/from AP.
 
 ## Contact
 
