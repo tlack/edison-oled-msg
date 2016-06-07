@@ -27,3 +27,12 @@ to stdout a one-character code for which was pressed, so you can use this to dri
 
 I'm using it with a script in `/etc/init.d`. I've included the script here (`initd-omsg-status`) and you
 can read more about [how to setup `init.d` here](http://stephaniemoyerman.com/?p=41).
+
+## Status
+
+Not fully tested. Probably disruptive toward battery life. No control of contrast. No option to blank screen
+after timeout.
+
+## Contact
+
+@tlack
