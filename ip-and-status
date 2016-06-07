@@ -1,0 +1,11 @@
+while : 
+do
+
+	( ifconfig | grep 'inet addr' | cut -d: -f2 | cut -d" " -f1 | grep -v 127.0.0.1;
+		echo -n `battery-voltage | grep "level = " | cut -d"=" -f2`
+		echo -n " " 
+		echo -n `battery-voltage | grep "tage = " | cut -d"=" -f2 | tr -d " "`
+		) | ./omsg
+	sleep 240
+done
+
